@@ -1,0 +1,142 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 13, 2023, 6:20:03 PM
+    Author     : LENOVO
+*/
+*{
+    font-family: "Open Sans";
+}
+.page-contentd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.container-contentd {
+    width: 75%;
+    border: 1px solid black;
+    padding: 1.6rem;
+    margin-bottom: 3rem;
+    background-color: white;
+    box-shadow: 0 0 7px #e6edf0;
+    border-radius: 10px;
+}
+.rowd{
+    display: flex;
+}
+.rowd-left{
+    width: 40%;
+    /*height: 25rem;*/
+    display: flex;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+.rowd-right{
+    padding-left: 2rem;
+    width: 60%;
+    /*height: 50rem;*/
+    /*border: 1px solid black;*/
+}
+.img-p{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+.rowd-left img{
+    width: 90%;
+}
+.product-name{
+    color: #c96;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 0;
+    margin-bottom: 1.2rem;
+    margin-top: -0.5rem;
+    padding-right: 1rem;
+    /*border: 1px solid black;*/
+
+}
+.product-price{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #c96;
+    margin-bottom: 1.3rem;
+}
+.product-descr{
+    margin-bottom: 1rem;
+}
+.product-descr p{
+    
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #616161;
+    font-size: 1rem;
+}
+.product-qlt{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-bottom: 1rem;
+    /*border: 1px solid black;*/
+}
+.product-qlt label{
+    /*margin-right: 20px;*/
+}
+.product-qlt-detail{
+    margin-left: 20px;
+    max-width: 131px;
+    flex: 0 0 131px;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+.product-qlt-input{
+    display: flex;
+    width: 100%;
+
+}
+.product-qlt-input input{
+    text-align: center;
+}
+.button-sub, .button-add{
+    background-color: white;
+    color: #c96;
+    width: 26px;
+    height: 26px;
+    border-color: #ededed;
+    border-radius: 3px;
+    /*border-width : 0;*/
+}
+.button-sub:hover, .button-add:hover{
+    cursor: pointer;
+}
+.product-cart-block p{
+    /*Không cho người dùng bôi đen*/
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: inherit;
+    text-transform: uppercase;
+    box-shadow: 0 3px 1px #c96;
+    font-weight: 400;
+    height: 2.5rem;
+    width: 15rem;
+    border: 1px solid #c96;
+    color: #c96;
+    border-radius: 3px;
+}
+.product-cart-block P:hover{
+    cursor: pointer;
+}
+.product-cart-block P:active{
+    box-shadow: none;
+    transform: translateY(3px);
+}

@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+body {
+    background-color: rgb(237, 241, 243);
+}
+
+header {
+    /* #f6f5f9 */
+
+    height: 100px;
+
+}
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 95px;
+    height: 100px;
+    padding: 0 10px;
+}
+
+.header-left {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    margin-left: 7.5rem;
+}
+
+.logo {
+    justify-self: start;
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-in {
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(237, 239, 246); */
+    border-radius: 10px;
+}
+
+.header-left img {
+    width: 50px;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav,
+.menu,
+li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.header-right {
+    width: 30%;
+    height: 100%;
+}
+
+.menu img {
+    width: 30px;
+}
+
+.search {
+    width: 40rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.search input {
+    outline: none;
+}
+
+.search input {
+    margin-left: 5px;
+    border: 0;
+    height: 2.5rem;
+    width: 27.5rem;
+}
+
+.search button {
+    height: 2rem;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.menu li:nth-of-type(1) {
+    height: 2rem;
+    width: 10rem;
+}
+
+.menu li:nth-of-type(2) {
+    box-shadow: 0 0 2px rgb(173, 173, 173);
+    border-radius: 5px;
+    background-color: white;
+    height: 2.5rem;
+    width: 30rem;
+}
+
+.header-right {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+}
+
+.info {
+    width: 70%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.sub-info1,
+.sub-info2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-info1 {
+    width: 40%;
+}
+
+.sub-info1 img,
+.sub-info2 a label img {
+    width: 35px;
+}
+
+.sub-info2 a label {
+    cursor: pointer;
+}
+
+.sub-info2 {
+    width: 60%;
+
+}
+
+.sub-info2 a {
+    width: 100%;
+}
+
+.sub-info2 a label img {
+    margin-right: 0.5rem;
+}
+
+.sub-info2 label {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.sub-info2 label img {
+    width: 30%;
+}
+
+.sub-info2 a label:hover,
+.menu li a:hover,
+.sub-info1 a img:hover {
+    box-shadow: 0 0 2px rgb(173, 173, 173);
+}
+
+.sub-info2 a label:active,
+.menu li a:active,
+.sub-info1 a img:active {
+    background-color: rgb(222, 222, 232);
+}
+
+/* body */
+.page-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.container-content {
+    width: 85%;
+    padding: 1.6rem;
+    margin-bottom: 3rem;
+    background-color: white;
+    box-shadow: 0 0 7px #e6edf0;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.row-left {
+    width: 25%;
+    padding: 0 5px;
+}
+
+.row-right {
+    width: 75%;
+}
+
+.row-left-p1 {
+    margin-right: 2rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 1.5rem;
+}
+
+.row-left-p1 span:nth-of-type(1) {
+    color: inherit;
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 0;
+}
+
+#delete{
+    border: 0;
+    background-color: white;
+    font-size: 1rem;
+    color: #c96;
+    height: 1rem;
+}
+.row-left-p2{
+    height: 12rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ebebeb;
+}
+.row-t{
+    height: 20rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.15;
+    letter-spacing: 0;
+}
+.row-l label{
+    display: block;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.row-right{
+    display: flex;
+    justify-content: center;
+}
+.product{
+    width: 100%;
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block{
+    padding: 10px;
+    width: 22%;
+    height: 17rem;
+    /* border: 1px solid black; */
+}
+.block-img, .block-name, .block-price{
+    display: flex;
+    justify-content: center;
+}
+.block-name{
+    padding-bottom: 0.5rem;
+}
+.block-img img{
+    width: 12rem;
+}
+.block-price{
+    color: #c96;
+    font-size: larger;
+}
+.block:hover, .row-l label:hover, #delete:hover{
+    box-shadow: 0 0 30px #ebebeb;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.block:active, .row-l label:active, #delete:active{
+    background-color: #f9f3f3;
+}

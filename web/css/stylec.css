@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 14, 2023, 2:10:03 AM
+    Author     : LENOVO
+*/
+
+.rowc-left{
+    width: 55%;
+}
+.rowc-right{
+    width: 45%;
+
+}
+.containers{
+    border-radius: 5px;
+    box-shadow: 0 0 25px #edf1f3;
+    display: flex;
+    width: 90%;
+    margin-bottom: 1.5rem;
+}
+.img-i{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    /*border: 1px solid black;*/
+}
+.img-i img{
+    width: 6rem;
+}
+.detail{
+
+    width: 60%;
+    /*border: 1px solid black;*/
+}
+.dele{
+    background-color: #f8f3ef;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    
+}
+.dele:hover{
+    background-color: #e2dbd5;
+    cursor: pointer;
+}
+.pro-name{
+    color: #c96;
+    font-size: 20px;
+    margin-bottom: 0.4rem;
+}
+.pro-price{
+    font-size: 18px;
+}
+
+.info-user{
+    /*height: 30rem;*/
+    
+}
+.info-user input{
+    border-radius: 5px;
+    font-size: 1.2rem;
+    height: 2rem;
+    display: block;
+    width: 90%;
+    margin-bottom: 1.5rem;
+}
+.info-user textarea{
+    border-radius: 5px;
+    height: 10rem;
+    width: 90%;
+    font-size: 1.2rem;
+    resize: none;
+}
+
+.info-user input:focus, textarea:focus{
+    border-color: blue;
+    box-shadow: 0 0 3px blue;
+    outline: none;
+}
+.info-user input:active, textarea:active{
+    border-color: blue;
+}
+.total{
+    height: 2rem;
+    /*width: 5rem;*/
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
